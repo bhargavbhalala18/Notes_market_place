@@ -1,0 +1,788 @@
+/* html, body*/
+html,
+body {
+    height: 100%;
+    width: 100%
+}
+
+body {
+    color: #212226;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Raleway', sans-serif;
+    font-family: calc(18px + 10vw);
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+section {
+    background: #fff;
+}
+
+/* Content Boxes */
+.content-box-first {
+    padding: 120px 0 40px 0;
+}
+
+.content-box-lg {
+    padding: 120px 0;
+}
+
+.content-box-md {
+    padding: 100px 0;
+}
+
+.content-box-sm {
+    padding: 50px 0;
+}
+
+/* ========================================
+    > > > > > > > Form < < < < < < <
+   ========================================*/
+.form-header h3 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 35px;
+    color: #6255a5;
+}
+
+.form-header p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 15px;
+    color: #333333;
+    padding: 0;
+    margin: 0 0 15px 0;
+}
+
+#form-page {
+    background-image: url(../images/login-bg-img.png);
+    background-size: cover;
+    background-color: #6255a5;
+    background-blend-mode: overlay;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.form-logo {
+    position: fixed;
+    top: 10%;
+    left: 1%;
+    right: 1%;
+}
+
+form.all-form {
+    background-color: #fff;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 50px;
+    margin: 25px auto;
+    position: fixed;
+    left: 30%;
+    top: 15%;
+    right: 30%;
+    bottom: auto;
+}
+
+.form-btn {
+    background-color: #6255a5;
+    color: #fff;
+    width: 100%;
+    height: auto;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    line-height: 23px;
+    border: 1px solid;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+
+/* ========================================
+    > > > > > > > Login-page < < < < < < <
+   ========================================*/
+label {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #333333;
+    width: 100%;
+
+}
+
+label a {
+    float: right;
+    color: #6255a5;
+}
+
+.all-email {
+    color: #000;
+    border: 1px solid #6255a5;
+    border-radius: 3px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.all-email,
+label a,
+#password-field::placeholder,
+label.form-check-label,
+.sign-up {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+
+}
+
+#password-field {
+    border: 1px solid #ff5e5e;
+    border-radius: 3px;
+    width: 100%;
+}
+
+#password-field::placeholder {
+    color: #8a8a8a;
+}
+
+.eye-icon {
+    float: right;
+    margin: -27px 10px;
+    position: relative;
+    z-index: 2;
+}
+
+#pwdHelp {
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 20px;
+    color: #FF3636;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.form-check {
+    margin: 20px 0;
+}
+
+#exampleCheck1 {
+    border: 1px solid #d1d1d1;
+    width: 30px;
+    height: 30px;
+    border-radius: 3px;
+    margin-top: -3px;
+}
+
+label.form-check-label {
+    color: #333333;
+    margin-left: 12px;
+}
+
+.sign-up {
+    color: #333333;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+.sign-up a {
+    color: #6255a5;
+}
+
+
+/* ========================================
+    > > > > Forgot Password < < < < <
+   ========================================*/
+.fgtPwd-logo {
+    position: fixed;
+    right: 1%;
+    left: 1%;
+    top: 25%
+}
+
+form.fgtPwd-form {
+    position: fixed;
+    left: 30%;
+    top: 30%;
+    right: 30%;
+    bottom: auto;
+}
+
+
+/* ========================================
+    > > > > > > > Navigation < < < < < < <
+   ========================================*/
+.navbar {
+    padding: 20px 0 10px 0;
+    background-color: #fff;
+    -webkit-box-shadow: 0 8px 6px -9px #999;
+    box-shadow: 0 8px 6px -9px #999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    -webkit-transition: all 300ms linear;
+    transition: all 300ms linear;
+}
+
+.navbar-brand img {
+    width: auto;
+    display: block;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+ul.navbar-nav li a,
+.dropdown a.drop-a {
+    font-family: "Open Sans", sans-serif;
+    color: #212225;
+    display: inline-table;
+    padding: 0;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 22px;
+    margin: 0 0 0 25px;
+}
+
+.dropdown a.drop-a:hover,
+.dropdown a.drop-a:focus,
+ul.navbar-nav > li > a:hover,
+ul.navbar-nav > li > a:focus {
+    background: none;
+    color: #6255a5;
+    text-decoration: none;
+    border-bottom: 3px solid #6255a5;
+}
+
+ul.navbar-nav li > a.user-photo{
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    position: relative;
+    top: -5px;
+}
+
+.nav-btn {
+    background-color: #6255a5;
+    width: 90px;
+    text-transform: none;
+    height: 30px;
+    border: 1px solid #6255a5;
+    border-radius: 5px;
+    font-weight: 550;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+}
+ul.nav .nav-btn {
+    color: #fff;
+    font-size: 17px;
+    line-height: 25px;
+}
+
+/* None Navigation */
+.none-nav-top {
+    background: none;
+}
+
+.none-nav-top ul.navbar-nav > li > a {
+    color: whitesmoke
+}
+
+.none-nav-top ul.nav .nav-btn {
+    color: #6255a5;
+    border: 1px solid;
+    background-color: #fff;
+    padding: 5px 10px;
+}
+
+.none-nav-top ul.nav .nav-btn:hover {
+    color: #fff;
+    border: 1px solid;
+    background-color: #6255a5;
+}
+
+/* Scroll Spy active state */
+ul.navbar-nav > .nav-link.active
+ul.navbar-nav > .nav-link.active {
+    color: #6255a5;
+    font-weight: 500;
+}
+
+/* ========================================
+    > > > > > > > footer < < < < < < <
+   ========================================*/
+footer {
+    border-top: 1px solid #d3d3d3;
+    padding: 15px 0;
+}
+footer p {
+    position: relative;
+    top: 10%;
+}
+
+/* ========================================
+    > > > > > > > Headings < < < < < < <
+    ========================================*/
+.general-heading h3 {
+    font-family: "Open Sans", sans-serif;
+    color: #6255a5;
+    font-size: calc(25px + 0.8vw) ;
+    font-weight: 600;
+    line-height: 40px;   
+}
+.general-heading h4 {
+    font-family: "Open Sans", sans-serif;
+    font-size: calc(20px + 0.4vw);
+    font-weight: 600;
+    line-height: 25px;
+    color: #6255a5;
+    margin-top: 10px;
+}
+.general-heading p {
+    font-family: "Open Sans", sans-serif;
+    font-size: calc(10px + 0.4vw);
+    font-weight: 400;
+    line-height: 30px;
+    color: #333333;
+}
+
+/* ========================================
+    > > > > > > > Rating < < < < < < <
+   ========================================*/
+.rating {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+.rating>input {
+    display: none;
+}
+.rating>label img{
+    width: 25px;
+}
+.rating>label {
+    position: relative;
+    cursor: pointer;
+}
+.rating>label::before {
+    background: url(../images/star.png);
+    background-size: 25px 25px;
+    width: 25px; 
+    height: 25px;
+    content:"";
+    position: absolute;
+    opacity: 0;   
+}
+.rating>label:hover:before,
+.rating>label:hover~label:before {
+    opacity: 1 !important;
+}
+.rating>input:checked~label:before {
+    opacity: 1;
+}
+.rating:hover>input:checked~label:before {
+    opacity: 0.5;
+}
+
+/* =================================
+    > > > > Pagination < < < < <
+   ===============================*/
+/* Pagination */
+ul.pagination {
+    margin-top: 20px;
+}
+ul.pagination li a{
+    padding: calc(7px + 0.4vw) calc(12px + 0.4vw);
+    margin: 5px;
+    border:1px solid transparent;
+}
+ul.pagination .page-item a:hover {
+    border:1px solid;
+    border-radius: 100px;
+    padding: calc(7px + 0.4vw) calc(12px + 0.4vw);
+    background-color: #6255a5;
+    color: #fff;
+}
+ul.pagination .page-arrow a{
+    border-radius: 90px;
+    padding: 10px 15px;
+    border:1px solid transparent;
+}
+
+/* =================================
+    > > > > Dropdown < < < <
+   ================================*/
+.dropdown {
+    overflow-y: visible !important;
+    width: 50px;
+    margin-right: 15px;
+}
+.dropdown-menu .dropdown-item {
+    margin: 0;
+    padding: 6px 25px 6px 10px;
+    font-weight: 500;
+}
+.dropdown-menu .drop-btn {
+    color: #6255a5;
+    margin: 0;
+    text-decoration: none;
+    padding-left: 10px;
+}
+.dropdown-menu .dropdown-item:hover {
+    background-color: #6255a5;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+    color: #fff;
+}
+
+/* ========================================
+    > > > > > > > Dashboard < < < < < < <
+   ========================================*/
+#dashboard {
+    margin-top: 89px;
+}
+
+.d-boxes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-gap: 10px;
+}
+
+.d-box {
+    border: 1px solid #d1d1d1;
+    border-radius: 3px;
+    align-items: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#dashboard p{
+    margin: 0;
+    font-size: calc(10px + 0.4vw);
+    font-family: "Open sans", sans-serif;
+    font-weight: 400;
+    line-height: 22px;
+    color: #333333;
+}
+
+#dashboard h4 {
+    margin: 0;
+    font-size: calc(17px + 0.5vw);
+    font-family: "Open sans", sans-serif;
+    font-weight: 600;
+    line-height: 34px;
+    color: #6255a5;
+}
+
+.add-note-btn {
+    color: #fff;
+    font-weight: 600;
+    font-family: "Open Sans", sans-serif;
+    background-color: #6255a5;
+    border: 1px solid #6255a5;
+    border-radius: 4px;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.add-note-btn:hover{
+    color: #6255a5;
+    background-color: #fff;
+    text-decoration: none;
+}
+
+/* in progress notes and published notes table*/
+.table-caption-header .row{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;  
+}
+
+.table-caption-header form input {
+    margin: -27px 0px 10px -5px;
+    padding-left: 25px;
+}
+
+.table {
+    margin-top: 15px;
+    border: 1px solid #d1d1d1;
+    border-radius: 3px;
+}
+
+.table tr {
+    height: 60px;
+}
+
+.table td {
+    vertical-align: middle;
+    font-size: calc(13px + 0.1vw);
+    font-family: "Open Sans", sans-serif;
+}
+
+.all-table .table-eye {
+    position: relative; 
+    left: 13px;
+}
+
+.table tr:hover {
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.1);
+}
+
+/* ========================================
+    > > > > Fillup notes detail < < < < <
+   ========================================*/
+#fillup-notes-detail h4{
+    color: #6255a5;
+    font-size: calc(25px + 0.4vw);
+    margin-top: 35px;
+    font-weight: 600;
+}
+
+a.fillup-btn {
+    border: 1px solid #6255a5;
+    border-radius: 3px;
+    background-color: #6255a5;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: 600;
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;   
+}
+
+a.fillup-btn:hover {
+    color: #625a55;
+    background-color: #fff;
+    text-decoration: none;
+}
+
+/* ========================================
+    > > > > > > > My Profile < < < < < < <
+   ========================================*/
+/* basic-details */
+form.my-profile-details  label,
+form.add-administrator-details label,
+form.add-category-details label,
+form.add-country-details label{
+    margin-top: 10px;
+}
+
+form.add-country-details {
+    padding: 100px 0;
+}
+
+#my-profile #phone {
+    border-color: #d3d3d3;
+}
+
+.file-upload {
+    width: 100%;
+    padding: 120px 0 0 0;
+    height: 100px;
+    border-radius: 3px;
+    border: 1px solid #d3d3d3;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+}
+
+.toggle-upload-img {
+    align-content: center;
+    position: absolute;
+    left: 30%;
+    right: 30%;
+    top: 30%;
+    color: #B8B8B8;
+    cursor: pointer;
+}
+
+/* ========================================
+    > > > > > Notes Details Page < < < < 
+    ========================================*/
+/* notes left */
+.notes-left {
+    margin-bottom: 20px;
+}
+.notes-left img{
+    padding: 0;
+    float: left;
+    height: calc(325px + 0.8vw);
+    width: calc(230px + 0.8vw);
+    margin: 10px 20px 10px 0;
+}
+
+a.download-btn {
+    border: 1px solid #6255a5;
+    border-radius: 3px;
+    padding: 5px 10px;
+    text-decoration: none;
+    background-color: #6255a5;
+    color: #fff;
+}
+
+/* notes right */
+.notes-right .col-md-12 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.notes-right .col-md-12 p{
+    font-family: "Open Sans", sans-serif;
+    font-size: calc(14px + 0.2vw);
+    line-height: 25px;
+    font-weight: 400;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.notes-right .col-md-12 p:nth-child(2) {
+    color: #6255a5;
+    font-weight: 550;
+}
+
+/* Notes Preview */
+#notes-preview iframe {
+    height: 500px;
+    width: 460px;
+    border: 1px solid #d3d3d3;
+}
+
+.all-review {
+    border: 1px solid #d3d3d3;
+    padding: 20px;
+}
+
+.all-review hr{
+    margin-top: 0;
+}
+
+.customer-review {
+    display: flex;
+}
+
+.customer-review img {
+    float: left;
+    margin-right: 20px;
+    width: 50px;
+    height: 50px;
+}
+
+.customer-review .rating img {
+    height: 25px;
+}
+
+.customer-review .rating {
+    width: 30px;
+    margin-left: 60px;
+    padding: 0;
+}
+
+.reviews-detail {
+    float: right;
+}
+
+.customer-review .delet-icon img{
+    float: right;
+    width: 25px;
+    height: 25px;
+}
+
+/* ========================================
+    > > > > > > > Member Details  < < < < < < <
+    ========================================*/
+.member-info {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+#member-details p {
+    font-weight: 600;
+}
+
+.member-hr {
+    border-right: 1px solid #d1d1d1;
+}
+
+.member-info-right p{
+    color: #6255a5;
+    font-weight: 400;
+}
+
+/* ========================================
+    > > > > Note Under Review < < < < <
+    ========================================*/
+.approve-green-btn,
+.rejet-red-btn,
+.inreview-gray-btn {
+    border: 1px solid transparent;
+    border-radius: 4px;
+    width: 130px;
+    padding: 5px 10px;
+    color: #fff;
+    font-weight: 600;
+    font-family: "Open Sans", sans-serif;
+}
+
+.approve-green-btn:hover,
+.rejet-red-btn:hover,
+.inreview-gray-btn:hover {
+    background-color: #fff;
+    color: #6255a5;
+    border-color: #6255a5;
+}
+
+.approve-green-btn{
+    background-color: green;
+}
+
+.rejet-red-btn {
+    background-color: red;
+}
+
+.inreview-gray-btn {
+    background-color: #d1d1d1;
+}
+
+
+/* ========================================
+    > > > > >Downloaded Note < < < < <
+    ========================================*/
+.table-caption-drop {
+    margin-left: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.table-cap-right {
+    margin-top: 20px
+}
+
+
+
