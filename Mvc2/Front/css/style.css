@@ -1,0 +1,1126 @@
+/* html, body*/
+html,
+body {
+    height: 100%;
+    width: 100%
+}
+
+body {
+    color: #212226;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Raleway', sans-serif;
+    font-family: calc(18px + 10vw);
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+section {
+    background: #fff;
+}
+
+/* Content Boxes */
+.content-box-first {
+    padding: 120px 0 50px 0;
+}
+
+.content-box-lg {
+    padding: 120px 0;
+}
+
+.content-box-md {
+    padding: 100px 0;
+}
+
+.content-box-sm {
+    padding: 50px 0;
+}
+
+
+
+/* ========================================
+    > > > > > > > Form < < < < < < <
+   ========================================*/
+#form-page {
+    background-image: url(../images/login-bg-img.png);
+    background-size: cover;
+    background-color: #6255a5;
+    background-blend-mode: overlay;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-y: scroll;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.form-logo {
+    position: relative;
+    left: 0;
+    right: 0;
+}
+form.all-form {
+    background-color: #fff;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 25px auto;
+    width: 80%;
+    position: relative;
+    left: 0;
+    right: 0;
+}
+
+.form-header h3 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 35px;
+    color: #6255a5;
+}
+.form-header p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 15px;
+    color: #333333;
+    padding: 0;
+    margin: 0 0 15px 0;
+}
+
+form {
+    overflow: hidden;
+}
+
+.form-control {
+    transition: none;
+}
+
+.form-group {
+    border: none;
+    width: 100%;
+}
+
+.form-group label {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    border: none;
+    font-weight: 400;
+    display: inline-block;
+    line-height: 20px;
+    color: #333333;
+	margin-bottom: 3px;
+    width: 100%;
+}
+
+.form-group input{
+	border: 2px solid #d1d1d1;
+	border-radius: 4px;
+	font-family: inherit;
+    display: block;
+    font-weight: 400;
+	font-size: 15px;
+	padding: 5px;
+    width: 100%;
+}
+.form-group input:focus,
+.form-grop select:focus {
+	outline: 0;
+	border-color: #6255a5;
+}
+
+.form-group.success input {
+    border-color: #6255a5;
+}
+
+
+.form-group.error input {
+    border-color: #e74c3c;
+}
+
+.form-group small {
+    color: #e74c3c;
+    visibility: hidden;
+}
+
+.form-group.error small {
+    visibility: visible;
+}
+
+.form-btn {
+    background-color: #6255a5;
+    color: #fff;
+    width: 100%;
+    height: auto;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    line-height: 23px;
+    border: 1px solid;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+.form-btn:hover {
+    background-color: #fff;
+    color: #6255a5;
+    border: 2px solid #6255a5;
+    font-weight: 600;
+}
+
+.form-footer {
+    color: #333333;
+    margin-top: -15px;
+    margin-bottom: -10px;
+}
+.form-footer a {
+    color: #6255a5;
+}
+
+/* ========================================
+    > > > > > > > Login-page < < < < < < <
+   ========================================*/
+
+.form-group label a {
+    float: right;
+    color: #6255a5;
+}
+
+.eye-icon {
+    float: right;
+    margin: -27px 10px;
+    position: relative;
+    z-index: 2;
+}
+
+#exampleCheck {
+    border: 1px solid #d1d1d1;
+    width: 25px;
+    height: 25px;
+    border-radius: 3px;
+    margin: 0 0 10px -12px;
+}
+
+label.form-check-label {
+    color: #333333;
+    margin:0 0 10px 30px;
+}
+
+
+
+/* ========================================
+    > > > > Forgot Password < < < < <
+   ========================================*/
+.fgtPwd-logo {
+    position: fixed;
+    right: 0%;
+    left: 0%;
+    top: 25%
+}
+
+form.fgtPwd-form {
+    position: fixed;
+    left: 30%;
+    top: 30%;
+    right: 30%;
+    bottom: auto;
+}
+
+/* ========================================
+    > > > > > > > Sign Up < < < < < < <
+   ========================================*/
+.signup-logo {
+    top: 5%;
+}
+
+.signup-form .eye-icon {
+    position: relative;
+    margin: -24px 10px;
+}
+
+/* ========================================
+    > > > > > > > Navigation < < < < < < <
+   ========================================*/
+.navbar {
+    padding: 20px 0 10px 0;
+    background-color: #fff;
+    -webkit-box-shadow: 0 8px 6px -9px #999;
+    box-shadow: 0 8px 6px -9px #999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    -webkit-transition: all 300ms linear;
+    transition: all 300ms linear;
+}
+
+.navbar-brand img {
+    width: auto;
+    display: block;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+ul.navbar-nav li a {
+    font-family: "Open Sans", sans-serif;
+    color: black;
+    display: inline-table;
+    padding: 0;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 22px;
+    margin: 0 0 0 25px;
+}
+
+ul.navbar-nav > li > a:hover,
+ul.navbar-nav > li > a:focus {
+    background: none;
+    color: #6255a5;
+    text-decoration: none;
+    border-bottom: 3px solid #6255a5;
+}
+
+ul.navbar-nav li > .user-photo{
+    padding: 0;
+    position: relative;
+    top: -5px;
+}
+
+.nav-btn {
+    background-color: #6255a5;
+    width: 90px;
+    text-transform: none;
+    height: 30px;
+    border: 1px solid #6255a5;
+    border-radius: 5px;
+    font-weight: 550;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+}
+
+ul.nav .nav-btn {
+    color: #fff;
+    font-size: 17px;
+    line-height: 25px;
+}
+
+/* None Navigation */
+.none-nav-top {
+    background: none;
+}
+
+.none-nav-top ul.navbar-nav > li > a {
+    color: whitesmoke;
+}
+
+.none-nav-top ul.nav .nav-btn {
+    color: #6255a5;
+    border: 1px solid;
+    background-color: #fff;
+}
+
+.none-nav-top ul.nav .nav-btn:hover {
+    color: #fff;
+    border: 1px solid;
+    background-color: #6255a5;
+}
+
+/* Scroll Spy active state */
+ul.navbar-nav > li.active > a {
+    color: #6255a5;
+    font-weight: 500;
+}
+
+/* ========================================
+    > > > > > > > footer < < < < < < <
+   ========================================*/
+footer {
+    border-top: 1px solid #d3d3d3;
+    padding: 15px 0;
+}
+
+footer p {
+    position: relative;
+    top: 10%;
+}
+
+ul.social-list li {
+    border: 1px solid transparent;
+    border-radius: 40px;
+    width: 35px;
+    background-color: #6255a5;
+    list-style: none;
+    float: right;
+    padding: 5px 10px;
+    margin: 0 3px;
+    transition: border 2s ease-in-out;
+}
+
+ul.social-list li:nth-child(1):hover {
+    background: #2867B2;
+    border-color: transparent;
+}
+
+ul.social-list li:nth-child(2):hover {
+    background: #00aced;
+    border-color: transparent;
+}
+
+ul.social-list li:nth-child(3):hover {
+    background: #3b5998;
+    border-color: transparent;
+}
+
+/* ========================================
+    > > > > > > > Headings < < < < < < <
+    ========================================*/
+
+.general-heading h3 {
+    font-family: "Open Sans", sans-serif;
+    color: #6255a5;
+    font-size: calc(25px + 0.8vw) ;
+    font-weight: 600;
+    line-height: 40px;   
+}
+
+.general-heading h4 {
+    font-family: "Open Sans", sans-serif;
+    font-size: calc(20px + 0.4vw);
+    font-weight: 600;
+    line-height: 25px;
+    color: #6255a5;
+    margin-top: 10px;
+}
+
+.general-heading p {
+    font-family: "Open Sans", sans-serif;
+    font-size: calc(10px + 0.4vw);
+    font-weight: 400;
+    line-height: 30px;
+    color: #333333;
+}
+
+/* ========================================
+    > > > > > > > Button < < < < < < <
+    ========================================*/
+.general-btn {
+    background-color: #6255a5;
+    width: calc(120px + 0.8vw);
+    height: 30px;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    font-weight: 600;
+    font-family: "Open Sans", sans-serif;
+    font-size: calc(11px+0.4vw);
+    color: #fff;
+}
+
+/* ========================================
+    > > > > > > > User Profile < < < < < < <
+   ========================================*/
+
+/* Banner */
+#banner1 {
+    background: url(../images/banner.png) center;
+    background-color: #6255a5;
+    background-blend-mode: overlay;
+    background-size: cover;
+    position: relative;
+    height: 260px;
+    top: 84px;
+    left: 0;
+    right: 0;
+}
+
+.banner-header {
+    font-family: "Open Sans", sans-serif;
+    color: #fff;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 52px;
+}
+
+/* Details */
+#details h4 {
+    font-family: "Open Sans", sans-serif;
+    margin-bottom: 20px;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    color: #6255a5;
+}
+
+/* basic-details */
+form.basic-profile-details #gender {
+    margin-bottom: 15px;
+}
+
+#details #phone {
+    border-color: #d3d3d3;
+}
+
+.file-upload {
+    width: 100%;
+    padding: 120px;
+    height: 100px;
+    border-radius: 3px;
+    border: 1px solid #d3d3d3;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+}
+
+.toggle-upload-img {
+    align-content: center;
+    position: absolute;
+    left: 30%;
+    right: 30%;
+    top: 30%;
+    color: #B8B8B8;
+    cursor: pointer;
+}
+
+.toggle-upload-img img{
+    border:1px solid #d3d3d3;
+    height:calc(50px + 0.4vw);
+    width: calc(50px + 0.4vw);
+}
+
+/* college information */
+.college-details {
+    margin-top: 30px;
+}
+
+/* ========================================
+    > > > > > Email Verification < < < < <
+   ========================================*/
+form.verify-form {
+    position: fixed;
+    top: 25%;
+    padding: 35px;
+}
+
+.verify-btn {
+    color: #fff;
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 3px;
+    background-color: #6255a5;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+form.verify-form h3 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #6255a5;
+    margin-bottom: 15px;
+}
+
+form.verify-form h5 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    color: #333333;
+}
+
+/* ========================================
+    > > > > > > > Home Page < < < < < < <
+   ========================================*/
+
+/* Banner */
+#banner2 {
+    background: url(../images/banner.png) center no-repeat;
+    background-size: cover;
+    background-color: #6255a5;
+    background-blend-mode: overlay;
+}
+
+.home-heading {
+    margin-top: 80px;
+}
+.home-heading h2 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 50px;
+    margin: 20px 0;
+}
+.home-heading p {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    margin: 15px 0;
+}
+.br-btn button{
+    margin: 40px 0;
+    color: #fff;
+    padding: 10px 15px;
+    border: 1.5px solid #fff;
+    border-radius: 3px;
+    background-color: #6255a5;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+/* Works */
+#works {
+    background-color: #f4f4f4;
+}
+
+.rounded-logo { 
+    border: 1px solid transparent;
+    border-radius: 100px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    -webkit-box-shadow: 0px 0px 12px -6px gray;
+    box-shadow: 0px 0px 12px -6px gray;
+    margin: 10px auto;
+}
+.upload-seller {
+    padding: 30px 0 0 0;
+}
+
+/* Customers */
+.customer-details {
+    -webkit-box-shadow: 0px 0px 12px -6px gray;
+    box-shadow: 0px 0px 12px -6px gray;
+    margin-top: 25px;
+    padding: 30px;
+    position: relative;
+}
+
+.customer-details img {
+    width: calc(70px+ 5vw);
+    height: calc(70px+ 5vw);
+    margin-bottom: 10px;
+    border-radius: 3px;
+}
+
+.customer-details :nth-child(2) {
+    font-weight: 550;
+}
+
+/* ========================================
+    > > > > > Search Page < <  < < <
+   ========================================*/
+
+/* Search Form */
+#search {
+    margin-top: 85px;
+}
+
+form.search-form {
+    padding: 30px;
+    background-color: rgb(240,240,240);
+}
+
+form.search-form input {
+    padding-left: 50px;
+}
+
+form.search-form span {
+    position: absolute;
+    z-index: 1;
+    left: 25px;
+    top: 5px;
+}
+
+form.search-form select {
+    margin: 10px 0 0 0;
+    font-size: calc(13px + 0.4vw);
+}
+
+/* Notes Cards */
+#notes .card {
+    margin: 10px 0 0 0;
+}
+#notes .card-body {
+    padding: 15px;
+    height: auto;
+}
+.note-img img {
+    display: flex;
+    margin: 5px auto;
+}
+.note-content h4 {
+    font-size: calc(15px + 0.5vw);
+    line-height: 28px;
+    margin-bottom: 10px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+.note-content p {
+    font-size: calc(14px + 0.2vw);
+}
+
+.flag p {
+    color: #df3434;
+}
+
+/* ========================================
+    > > > > > > > Rating < < < < < < <
+   ========================================*/
+.rating {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+.rating>input {
+    display: none;
+}
+.rating>label img{
+    width: 25px;
+}
+.rating>label {
+    position: relative;
+    cursor: pointer;
+}
+.rating>label::before {
+    background: url(../images/star.png);
+    background-size: 25px 25px;
+    width: 25px; 
+    height: 25px;
+    content:"";
+    position: absolute;
+    opacity: 0;   
+}
+.rating>label:hover:before,
+.rating>label:hover~label:before {
+    opacity: 1 !important;
+}
+.rating>input:checked~label:before {
+    opacity: 1;
+}
+.rating:hover>input:checked~label:before {
+    opacity: 0.5;
+}
+
+/* ========================================
+    > > > > > > > pagination < < < < < < <
+   ========================================*/
+ul.pagination {
+    margin-top: 20px;
+}
+ul.pagination li a{
+    padding: calc(7px + 0.4vw) calc(12px + 0.4vw);
+    margin: 5px;
+    border:1px solid transparent;
+    border-radius: 100px;
+}
+
+ul.pagination .page-item.active a{
+    border:1px solid;
+    border-radius: 100px;
+    padding: calc(7px + 0.4vw) calc(12px + 0.4vw);
+    background-color: #6255a5;
+    color: #fff;
+}
+
+ul.pagination .page-arrow a{
+    border-radius: 90px;
+    padding: 10px 15px;
+    border:1px solid transparent;
+}
+
+/* ========================================
+    > > > > > Notes Details Page < < < < 
+    ========================================*/
+
+/* notes left */
+.notes-left {
+    margin-bottom: 20px;
+}
+.notes-left img{
+    padding: 0;
+    float: left;
+    height: calc(325px + 0.8vw);
+    width: calc(230px + 0.8vw);
+    margin: 10px 20px 10px 0;
+}
+
+a.download-btn {
+    border: 1px solid #6255a5;
+    border-radius: 3px;
+    padding: 5px 10px;
+    text-decoration: none;
+    background-color: #6255a5;
+    color: #fff;
+}
+
+/* notes right */
+.notes-right .col-md-12 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.notes-right .col-md-12 p{
+    font-family: "Open Sans", sans-serif;
+    font-size: calc(14px + 0.2vw);
+    line-height: 25px;
+    font-weight: 400;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.notes-right .col-md-12 p:nth-child(2) {
+    color: #6255a5;
+    font-weight: 550;
+}
+
+/* Notes Preview */
+#notes-preview iframe {
+    height: 500px;
+    width: 460px;
+    border: 1px solid #d3d3d3;
+}
+
+.all-review {
+    border: 1px solid #d3d3d3;
+    padding: 20px;
+}
+
+.all-review hr{
+    margin-top: 0;
+}
+
+.customer-review {
+    display: flex;
+}
+
+.customer-review img {
+    float: left;
+    margin-right: 20px;
+    width: 50px;
+    height: 50px;
+}
+
+.customer-review .rating img {
+    height: 25px;
+}
+
+.customer-review .rating {
+    width: 25px;
+    margin-left: 70px;
+    padding: 0;
+}
+
+.reviews-detail {
+    float: right;
+}
+
+/* ===============================
+    > > > > Modal Popup < < < < <
+   ==============================*/
+.modal {
+    z-index: 9999;
+}
+.modal-content a.close{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.modal-content a.close img{
+    margin-right: 10px;
+    margin-top: 10px;
+    border: none;
+    width: 20px;
+    height: 20px;
+}
+
+.modal-title span{
+    font-size: 35px;
+    font-weight: 900;
+    color: #fff;
+    border: 1px solid #6255a5;
+    border-radius: 230px;
+    background-color: #6255a5;
+    padding: 10px 20px;
+}
+
+.modal-title h4 {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: calc(18px + 0.4vw);
+}
+
+.modal-body {
+    padding: 10px 30px 20px 30px;
+}
+
+/* =================================
+    > >  > > Dashboard < < < <
+   ================================*/
+/* dropdown */
+.dropdown {
+    overflow-y: visible !important;
+    width: 50px;
+    margin-right: 15px;
+}
+.dropdown-menu .dropdown-item {
+    margin: 0;
+    padding: 6px 25px 6px 10px;
+    font-weight: 500;
+}
+
+.dropdown-menu .drop-btn {
+    color: #6255a5;
+    margin: 0;
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background-color: #6255a5;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+    color: #fff;
+}
+
+/**/
+#dashboard {
+    margin-top: 89px;
+}
+
+.add-note {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    padding: 0;
+} 
+
+.add-note-btn {
+    color: #fff;
+    font-weight: 600;
+    font-family: "Open Sans", sans-serif;
+    background-color: #6255a5;
+    border: 1px solid #6255a5;
+    border-radius: 4px;
+    height: 35px;
+    padding: 5px 22px;
+}
+
+.add-note-btn:hover{
+    color: #6255a5;
+    background-color: #fff;
+    text-decoration: none;
+}
+
+.left-d-box {
+    border: 1px solid #d1d1d1;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+
+.d-box {
+    border: 1px solid #d1d1d1;
+    border-radius: 3px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    min-width: 90px;
+}
+
+#sold-notes,
+#money-earned {
+    border: none
+}
+
+#dashboard p{
+    margin: 0;
+    font-size: calc(10px + 0.5vw);
+    font-family: "Open sans", sans-serif;
+    font-weight: 400;
+    line-height: 22px;
+    color: #333333;
+}
+
+#dashboard h4 {
+    margin: 0;
+    font-size: calc(17px + 0.5vw);
+    font-family: "Open sans", sans-serif;
+    font-weight: 600;
+    line-height: 34px;
+    color: #6255a5;
+}
+
+/* in progress notes and published notes table*/
+.table-caption-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.table-caption-header form{
+    padding: 0;
+    margin: 0;
+}
+
+.table-caption-header form input[type=search] {
+    padding-left: 35px;
+    margin: -20px 0px 15px -10px;
+}
+
+.table {
+    margin-top: 10px;
+    border: 1px solid #d1d1d1;
+    border-radius: 3px;
+}
+
+.table tr {
+    height: 60px;
+}
+
+.table td {
+    vertical-align: middle;
+    font-size: calc(13px + 0.1vw);
+    font-family: "Open Sans", sans-serif;
+}
+
+.all-table .table-eye {
+    position: relative; 
+    left: 13px;
+}
+
+.table tr:hover {
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.1);
+}
+
+/* ========================================
+    > > > > Fillup notes detail < < < < <
+   ========================================*/
+#fillup-notes-detail h4{
+    color: #6255a5;
+    font-size: calc(25px + 0.4vw);
+    margin-top: 35px;
+    font-weight: 600;
+}
+
+.fillup-btn {
+    border: 2px solid #6255a5;
+    border-radius: 3px;
+    background-color: #6255a5 !important;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: 600;
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;   
+}
+
+.fillup-btn:hover {
+    color: #625a55;
+    background-color: #fff;
+    text-decoration: none;
+}
+
+/* ========================================
+    > > > > > My Download Table < < < < <
+   ========================================*/
+
+/* Review Popup */
+#review-popup .modal{
+    margin-top: 130px;
+}
+
+.review-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+#review-popup .modal-title h4{
+    font-size: 28px;
+    margin-top: -10px;
+    color: #6255a5;
+    
+}
+
+.modal-body form .rating {
+    transform: scale(1.7);
+    width: 200px;
+    margin-left: 65px;
+}
+
+/* ========================================
+    > > > > > > > FAQ < < < < < < <
+   ========================================*/
+#faq .card {
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 0px;
+}
+
+#faq .card-header {
+    border: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#faq .card-header h6 {
+	display:inline;
+    float: left;
+    color: #333333;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 400;
+    padding: 8px 20px 10px 20px;
+}
+
+#faq .card-header a.btn {
+    display: inline;
+    float:right;
+}
+
+.accordion a.btn:hover {
+    background: none;
+    border: 1px solid transparent;
+    outline: 0px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+a[aria-expanded=true] .plus {
+   display: none;
+}
+a[aria-expanded=false] .minus {
+   display: none;
+}
+
+/* ===============================
+   > > > > > Contact Us  < < < < <
+   =============================*/
+form.contact-us-form {
+    margin-top: 40px;
+}
